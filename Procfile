@@ -1,1 +1,1 @@
-web: qunicorn personal_landing.wsgi --lof-file -
+web: qunicorn personal_landing.wsgi --log-file -
