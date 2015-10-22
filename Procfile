@@ -1,1 +1,1 @@
-web: qunicorn personal_landing.wsgi --log-file -
+web: gunicorn personal_landing.wsgi --log-file -
