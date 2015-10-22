@@ -1,0 +1,1 @@
+web: qunicorn personal_landing.wsgi --lof-file -
