@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block content %}
+<div class="row">
+  <div class="col-lg-6">
+     <div class="container" text-right>
+    <img src=/static/image/IMG_0671.JPG class="img-circle" alt="Kereece" width="400" height="400" style="float:right;" />
+      <h1>Congrats, A whole page just about me... </h1>
+      <br>
+      <p> Hi, I'm glad you would like to know more about me. I a senior at Quinnipiac University where I am currently pursuing a degree in Computer Information Systems. I am part of the 3+1 MBA program which is an accelerated program which allows you to achieve an undergradurate degree in 3 years and masters degree on the fourth. I am the Vice president of Career Development for the Computer Information System Society. </p>
+      <br>
+      <p> My goal is to use my degree and skills to further my foundation in technology. My end game is to work as consultant for a large firm helping businesses make strategic decisions in implementation. I am moving closer to that goal as I interned this past summer at PricewaterhouseCoopers, which is a large auditing/accounting firm. I plan on continuing my career with them as I also have an internship next summer and I am also investigating full time opporunities. </p>
+      <br>
+      <p> My goal for this semester, mostly Guido's, is to learn to love Python. I am determined to actually love and learn coding. I have made a ton of progress since the beginning of the semester and though I hate admitting it, I am actually getting there. Hopefully I learn some valuable skills that will be trannsferable to my future career. And who knows,I might even actually aspire to be a web developer. </p>
+      <br>
+      <p> If you would like progress updates, send me a message to let me know ! </p>
+      <br>
+      <p><a href="{% url 'message_create' %}" class="btn-lg btn-primary">Send message</a></p>
+     </div>
+</div>
+{% endblock %}
